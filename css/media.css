@@ -1,0 +1,39 @@
+@media (max-width:500px){
+    header{
+        grid-template-rows:3rem 5rem ;
+    }
+    .header-icon-container .icons{
+        margin-right: 2rem;
+        justify-content: space-around;
+        min-width: 30rem;
+    }
+    
+    nav{
+        grid-template-columns: minmax(12rem,20rem) auto;
+    }
+    .nav-logo-container{
+        margin-left: 2rem;
+    }
+    .home-title{
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+   
+    
+}
+@media (min-width:768px){
+    body{
+        font-size: 1.6rem;
+    }
+    .profile-welcome{
+        grid-template-columns: repeat(auto-fit,minmax(20rem,30rem));
+    }
+}
+@media (min-width:500px) and (max-width:768px){
+    .body-perfil{
+        font-size: 1.2rem;
+    }
+    .profile-welcome{
+        grid-template-columns: repeat(auto-fit,minmax(20rem,30rem));
+    }
+}
